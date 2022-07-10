@@ -194,7 +194,7 @@ h1 {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background: url(/Beard_Care/IMG/beard-svgrepo-com.svg) no-repeat;
+  background: url(beard-svgrepo-com.svg) no-repeat;
   width: 20px;
   height: 20px;
   display: block;
@@ -416,7 +416,7 @@ h1 {
   position: absolute;
   top: 52%;
   right: 23.5%;
-  background: url(/Beard_Care/IMG/barber_.png);
+  background: url(barber_.png);
   width: 600px;
   height: 600px;
 }
@@ -681,7 +681,7 @@ h1 {
   display: block;
   width: 24px;
   height: 24px;
-  background: url(/Beard_Care/IMG/link.png) 0 0px / 100% no-repeat;
+  background: url(link.png) 0 0px / 100% no-repeat;
   margin-left: 11px;
 }
 
