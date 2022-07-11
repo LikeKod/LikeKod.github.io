@@ -1098,7 +1098,7 @@ h1 {
   }
   .about_btn {
     margin: 0 0 30px 0;
-    text-align: center;
+    text-align: start;
   }
   /* =================================================================== */
   .directions_list {
