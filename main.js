@@ -81,15 +81,13 @@ $(function () {
     $('.directions_list_link').show(0);
   });
     
-
-  setInterval(()=> {
-    if($(window).scrollTop () > 0 && $('.header_top').hasClass('header_top_open')===false) {
+  setInterval(() => {
+    if ($(window).scrollTop() > 0 && $('.header_top').hasClass('header_top_open') === false) {
       $('.burger').addClass('burger_follow')
-    } else{
+    } else {
       $('.burger').removeClass('burger_follow')
     }
   }, 0)
-
   $('.burger, .overlay').on('click', function (e) {
     e.preventDefault()
     $('.header_top').toggleClass('header_top_open')
