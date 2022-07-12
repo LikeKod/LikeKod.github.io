@@ -80,7 +80,7 @@ h1 {
   letter-spacing: 0.5px;
   font-style: 16px;
   line-height: 52px;
-  background: linear-gradient(90deg, #000000 -10%, #ffffff 70%, #080808 110%);
+  background: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -139,7 +139,7 @@ h1 {
 
 .header {
   font-weight: 700;
-  background: linear-gradient(90deg, #000000 -10%, #ffffff 70%, #080808 110%);
+  background: #ffffff;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -293,7 +293,7 @@ h1 {
 }
 
 .header_row > span {
-  background: linear-gradient(90deg, #000000 -10%, #ffffff 70%, #080808 110%);
+  background: #ffffff;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -320,7 +320,7 @@ h1 {
 
 .about {
   border: 3px solid rgba(0, 0, 0, 0.897);
-  background: linear-gradient(90deg, #ffff -10%, #080808 70%, #ffff 110%);
+  background: #ffffff;
   /* padding: 180px 0 160px; */
   position: relative;
   transition: all 0.3s;
@@ -352,7 +352,7 @@ h1 {
 }
 
 .about_heading span {
-  background: linear-gradient(55.95deg, #000000 -10%, #ffffff 10%);
+  background: linear-gradient(55.95deg, #000000 -10%, #646464 10%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -433,15 +433,15 @@ h1 {
   overflow: hidden;
 }
 
-.about_img_box::before {
+/* .about_img_box::before {
   content: "";
   position: absolute;
   top: 52%;
   right: 23.5%;
-  background: url(barber_.png);
+  background: url(/Beard_Care/IMG/barber_.png);
   width: 600px;
   height: 600px;
-}
+} */
 
 .about_numbers {
   margin-left: 30px;
@@ -452,7 +452,7 @@ h1 {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  color: aliceblue;
+  color: rgb(75, 0, 0);
 }
 
 .about_number:last-child {
@@ -465,7 +465,7 @@ h1 {
   line-height: 130%;
   letter-spacing: 1px;
   margin-right: 16px;
-  background: linear-gradient(55.95deg, #000000 -10%, #ffffff 60%);
+  background: linear-gradient(55.95deg, #000000 -10%, #4d0000 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -474,7 +474,7 @@ h1 {
 /* ------------------------------------------------------------------------------ */
 
 .directions {
-  background: linear-gradient(90deg, #000000 -10%, #ffffff 70%, #080808 110%);
+  background: #ffffff
   /* padding-top: 160px;
     padding-bottom: 180px; */
 }
@@ -536,7 +536,7 @@ h1 {
 
 .directions_list_link {
   display: block;
-  border: 1px solid #a1a1a1;
+  border: 1px solid #630000;
   border-radius: 4px;
   overflow: hidden;
   max-width: 225px;
@@ -677,7 +677,7 @@ h1 {
 .directions_link_tag {
   line-height: 1;
   font-weight: 700;
-  color: #ffff;
+  color: rgb(109, 109, 109);
   background-color: #3b2421;
   padding: 6px 8px;
   border-radius: 4px;
@@ -709,7 +709,7 @@ h1 {
 /* ------------------------------------------------------------------------- */
 
 .cert {
-  background: linear-gradient(90deg, #000000 -10%, #ffffff 70%, #080808 110%);
+  background: #ffffff;
 }
 
 .cert_inner {
@@ -773,7 +773,7 @@ h1 {
   /* font-family: "Muli", sans-serif; */
   overflow: hidden;
   padding-top: 100px;
-  background: linear-gradient(90deg, #000000 -10%, #ffffff 70%, #080808 110%);
+  background: #ffffff;
   height: 100vh;
   display: flexbox;
   justify-content: center;
@@ -1002,7 +1002,7 @@ h1 {
     margin: 0 0 30px 0;
   }
   .cert_heading{
-    text-align: center;
+    text-align: start;
   }
   .cert_img_box{
     margin-left: 0;
@@ -1024,6 +1024,18 @@ h1 {
 }
 
 @media (max-width: 900px) {
+  .main_about {
+    padding: 10px 0 10px;
+  }
+  
+  /* =================================================================================== */
+  .header{
+    margin: 10px 0 10px;
+    padding: 10px 0 10px;
+  }
+  .header_main {
+    margin: 10px 0 10px;
+  }
   .header_content {
     margin: 0;
   }
@@ -1038,8 +1050,16 @@ h1 {
     display: none;
   }
   /* =================================================================================== */
-    .directions_heading{
+  .main_directions {
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .directions_heading{
     margin-bottom: 10px;
+  }
+  .directions_list{
+    align-content: center ;
   }
   /* =================================================================================== */
   .slide.active {
@@ -1098,7 +1118,7 @@ h1 {
   }
   .about_btn {
     margin: 0 0 30px 0;
-    text-align: start;
+    text-align: center;
   }
   /* =================================================================== */
   .directions_list {
