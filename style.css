@@ -2,7 +2,7 @@ html,
 body {
   scroll-behavior: smooth;
   font-size: 20px;
-  font-family: "Courier New", Courier, monospace, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   color: #000000;
   line-height: 160%;
 }
@@ -310,16 +310,6 @@ h1 {
   transition: all 0.3s;
 }
 
-/* .about::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: url(/Beard_Care/IMG/phone.png);
-    width: 100px;
-    height: 100px;
-} */
-
 .about_createx {
   display: flex;
   align-items: flex-end;
@@ -377,7 +367,6 @@ h1 {
 .about_btn_box {
   display: flex;
   text-align: center;
-  /* margin-right: 12%; */
   margin-left: 6%;
 }
 .about_btn {
@@ -414,16 +403,6 @@ h1 {
   overflow: hidden;
 }
 
-/* .about_img_box::before {
-  content: "";
-  position: absolute;
-  top: 52%;
-  right: 23.5%;
-  background: url(barber_.png);
-  width: 600px;
-  height: 600px;
-} */
-
 .about_numbers {
   margin-left: 30px;
   align-self: center;
@@ -456,8 +435,6 @@ h1 {
 
 .directions {
   background: #ffffff
-  /* padding-top: 160px;
-    padding-bottom: 180px; */
 }
 
 .directions_heading {
@@ -588,7 +565,7 @@ h1 {
   display: block;
   width: 24px;
   height: 24px;
-  background: url(Ozon.png) 0 0px / 100% no-repeat;
+  background: url(/Beard_Care/IMG/Ozon.png) 0 0px / 100% no-repeat;
   margin-left: 80px;
   margin-bottom: 5px;
 } */
@@ -700,6 +677,7 @@ h1 {
 }
 
 .cert_content {
+  font-family: "Courier New", Courier, monospace, sans-serif;
   margin-right: 30px;
   max-width: 600px;
 }
@@ -750,7 +728,6 @@ h1 {
 /* ------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------- */
 .main_gallery {
-  /* font-family: "Muli", sans-serif; */
   overflow: hidden;
   padding-top: 100px;
   background: #ffffff;
@@ -998,9 +975,16 @@ h1 {
   }
   .cert_content{
     margin: 0 0 30px 0;
+    justify-items: center;
   }
   .cert_heading{
-    text-align: start;
+    text-align: center;
+  }
+  .cert_heading .heading_title{
+    text-align: center;
+  }
+  .cert_text{
+    text-align: center;
   }
   .cert_img_box{
     margin-left: 0;
@@ -1082,6 +1066,17 @@ h1 {
   /* =================================================================================== */
   .directions_list {
     grid-template: repeat(3, auto) / repeat(2, 1fr);
+    justify-items: center;
+  }
+  .directions_filtr_box{
+    justify-content: center;
+  }
+  .directions_list {
+    grid-template: none;
+    justify-items: center;
+  }
+  .directions_heading .heading_title{
+    text-align: center;
   }
   /* =================================================================================== */
   .slide.active {
@@ -1101,13 +1096,15 @@ h1 {
     font-size: 25px;
     text-align: left;
   }
+
+
   .about_text {
     margin-bottom: 30px;
+    max-width: 320px;
   }
   .about_paragraph {
     margin-bottom: 10px;
     font-size: inherit;
-    max-width: 350px;
   }
 
   .about_btn_box {
@@ -1119,9 +1116,7 @@ h1 {
     text-align: center;
   }
   /* =================================================================== */
-  .directions_list {
-    grid-template: none;
-  }
+
   /* =================================================================== */
   .gallery_container {
     width: 100%;
@@ -1155,11 +1150,24 @@ h1 {
     margin: 0 0 30px 0;
     text-align: center;
   }
+
+  .about_text {
+    margin-bottom: 60px;
+    text-align: center;
+    transition: all 0.3s;
+  }
   /* =================================================================== */
   .directions_filtr_box{
     margin-bottom: 15px;
   }
   /* =================================================================== */
+  .cert_heading h2 {
+    font-weight: 3;
+    letter-spacing: 0.2px;
+    font-style: 10px;
+    line-height: 16px;
+    text-align: start;
+  }
   .cert_logo{
     flex-direction: column;
     align-items: center;
