@@ -364,9 +364,7 @@ h1 {
   transition: all 0.3s;
 }
 
-.about_paragraph:hover {
-  font-size: 20px;
-}
+
 
 .about_paragraph:last-child {
   margin-bottom: 0;
