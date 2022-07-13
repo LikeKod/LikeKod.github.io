@@ -1098,7 +1098,11 @@ h1 {
   }
 
 
+  .about_createx{
+  margin-left: 10px;
+  }
   .about_text {
+    text-align: center;
     margin-bottom: 30px;
     max-width: 320px;
   }
