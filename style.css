@@ -1160,6 +1160,11 @@ h1 {
   .directions_filtr_box{
     margin-bottom: 15px;
   }
+    /* =================================================================== */
+    .about_text {
+    margin-bottom: 30px;
+    max-width: 250px;
+  }
   /* =================================================================== */
   .cert_heading h2 {
     font-weight: 3;
