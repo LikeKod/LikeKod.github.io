@@ -339,7 +339,7 @@ h1 {
   margin-bottom: 60px;
   max-width: 550px;
   text-align: center;
-  transition: all 0.3s;
+  line-height: 1.5;
 }
 
 .about_text span {
@@ -1041,6 +1041,10 @@ h1 {
   }
   .directions_list{
     align-content: center ;
+  }
+  /* =================================================================================== */
+  .cert_heading .heading_title{
+  line-height: 1.5;
   }
   /* =================================================================================== */
   .slide.active {
