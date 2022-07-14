@@ -684,6 +684,10 @@ h1 {
   margin-bottom: 50px;
 }
 
+.cert_heading .heading_title{
+  line-height: 1.5;
+}
+
 .cert_heading h2 {
   font-weight: 10;
   letter-spacing: 0.5px;
@@ -1043,9 +1047,7 @@ h1 {
     align-content: center ;
   }
   /* =================================================================================== */
-  .cert_heading .heading_title{
-  line-height: 1.5;
-  }
+
   /* =================================================================================== */
   .slide.active {
     flex: 50;
