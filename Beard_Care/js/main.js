@@ -81,6 +81,13 @@ $(function () {
     $('.directions_list_link').show(0);
   });
     
+  $(".header_nav_list a, .header_top_btn, .footer_go_top").on("click", function (e) {
+    e.preventDefault()
+    var id = $(this).attr('href'),
+      top = $(id).offset().top
+    $('body,html').animate({ scrollTop: top }, 800)
+  })
+    
   setInterval(() => {
     if ($(window).scrollTop() > 0 && $('.header_top').hasClass('header_top_open') === false) {
       $('.burger').addClass('burger_follow')
