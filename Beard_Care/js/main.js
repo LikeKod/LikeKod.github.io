@@ -88,7 +88,7 @@ $(function () {
       $('.burger').removeClass('burger_follow')
     }
   }, 0)
-  $('.burger, .overlay').on('click', function (e) {
+  $('.burger, .overlay, .header_top a').on('click', function (e) {
     e.preventDefault()
     $('.header_top').toggleClass('header_top_open')
     $('.overlay').toggleClass('overlay_show')
